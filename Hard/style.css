@@ -380,6 +380,7 @@ ul {
   display: flex;
   align-items: center;
   justify-content: center;
+  
   gap: 32px;
 }
 
@@ -388,11 +389,14 @@ ul {
   font-weight: 800;
   color: #ffffff;
   letter-spacing: 4px;
+  position: relative;
 }
 
 .arrow-group {
   display: flex;
   gap: 11px;
+  position: absolute;
+  right:100px
 }
 
 .arrow-btn,
